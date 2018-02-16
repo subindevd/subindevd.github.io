@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include nav-header.html %}
+
+    <main>
+      {% include hero-header.html %}
+
+      <div>
+        <article>{{ content }}</article>
+        {% capture get_category %}{{ page.category }}{% endcapture %}
+        {% for post in site.categories[get_category] %}
+        <article class="item">
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <ul class="plainlist">
+            <li><span class="post-details-caption">Posted:</span> {{ post.date | date: "%-d %B %Y" }}</li>
+            <li><span class="post-details-caption">Author:</span> {{ post.author }}</li>
+          </ul>
+          {{ post.excerpt }}
+        </article>
+        {% endfor %}
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
