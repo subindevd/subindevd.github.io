@@ -6,7 +6,7 @@ layout: home
 title: Home
 hero_text: Hi
 hero_cover: true
-hero_title: Hi I'm Subindev D
+hero_title: Hi I'm Subindev
 hero_text: "Electronics hobbyist."
 collection: posts
 hero_img: assets/bgnd.jpeg
