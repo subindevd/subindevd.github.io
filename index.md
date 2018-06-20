@@ -9,6 +9,8 @@ hero_cover: true
 hero_title: Hi I'm Subindev
 hero_text: "Electronics hobbyist."
 collection: posts
+hero_social: true
 hero_img: assets/bgnd1.jpeg
 hero_img_round: assets/index3.png
+hero_social_github: https://github.com/subindevs
 ---
