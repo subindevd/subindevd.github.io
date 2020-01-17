@@ -11,7 +11,7 @@ hero_text: "Control system engineer, Electronics hobbyist."
 collection: posts
 hero_social: true
 hero_img: assets/bgnd1.jpeg
-hero_img_round: assets/index.png
+hero_img_round: assets/index2.jpg
 hero_social_github: https://github.com/subindevs
 hero_social_linkedin: https://in.linkedin.com/in/subindev
 hero_social_email: example@email.com
