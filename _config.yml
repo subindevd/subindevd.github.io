@@ -25,7 +25,7 @@ github_username:  subindevd
 # Build settings
 markdown: kramdown
 theme: charlie-lee-theme
-plugins:
+plugins_dir:
   - jekyll-feed
 
 # Exclude from processing.
