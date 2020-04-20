@@ -1,4 +1,4 @@
-baseurl = "http://subindev.com"
+baseurl = "http://www.subindev.com"
 title = "subindev d"
 theme = "hugo-coder"
 languagecode = "en"
